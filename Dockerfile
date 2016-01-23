@@ -1,4 +1,4 @@
-FROM edib/elixir-dev:1.1.1
+FROM edib/elixir-dev:1.2
 MAINTAINER Christoph Grabo <edib@markentier.com>
 
 RUN apk --update add nodejs && \
