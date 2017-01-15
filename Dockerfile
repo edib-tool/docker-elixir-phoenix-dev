@@ -1,4 +1,4 @@
-FROM edib/elixir-dev:1.3
+FROM edib/elixir-dev:1.4
 MAINTAINER Christoph Grabo <edib@markentier.com>
 
 RUN apk --no-cache upgrade && \
