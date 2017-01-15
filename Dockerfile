@@ -3,4 +3,7 @@ MAINTAINER Christoph Grabo <edib@markentier.com>
 
 RUN apk --no-cache upgrade && \
     apk --no-cache add nodejs && \
-    npm update -g npm
+    npm update -g npm && \
+    npm install --global yarn
+
+ENV PATH "${PATH}:`yarn global bin`"
